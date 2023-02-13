@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+.editoptbtn{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color:lightblue;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.editoptbtn:hover{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  background-color:lightgreen;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.edithead{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border:  5px solid white;
+  border-radius:50% ;
+  background-color: white;
+  /* color: black; */
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#696969, #af1919);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* padding-top: 60px; */
+  box-shadow: 2px 3px 20px 2px white;
+}
+.editbody{
+  border: 1px solid white;
+ width: 600px;
+ height: 600px;
+ border-radius: 30px ;
+ box-shadow: 5px 5px 30px 5px lightcoral;
+
+}
+.editheadbg{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border-radius:30px 30px 0px 0px;
+}
+.editbd{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius:  0px 0px 30px 30px;
+  /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+background-color: lightskyblue;
+color: black;
+  }
+  .editscore{
+    width: 300px;
+    border-radius:30px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 150px;
+    background-color: lightskyblue;
+  box-shadow: 2px 3px 20px 2px white;
+
+  }
+  .editheading{
+    font-size: 24px;
+  }
